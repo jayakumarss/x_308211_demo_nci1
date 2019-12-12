@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-12-12 19:53:17">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</application>
+<application_name>Demo NCI1</application_name>
+<application_scope>x_308211_demo_nci1</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Demo NCI1 - 1.0.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>efa1bcfbdb250010343f58b3ca9619be</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2019-12-12 19:53:17</sys_created_on>
+<sys_id>4123b43fdb250010343f58b3ca96199c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2019-12-12 19:53:17</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_a62e207bdb250010343f58b3ca96190c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;DemoNCITest2&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[// test();
+/**
+ * Description
+ * 
+ * @author System Administrator [admin]
+ * @memberof x_308211_demo_nci1.module:sys_script_client
+ * @returns {undefined}
+ */
+function test1(){
+// 	alert('test');
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-12 19:32:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a62e207bdb250010343f58b3ca96190c&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;DemoNCITest2&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Demo NCI1" source="x_308211_demo_nci1"&gt;dccde43bdb250010343f58b3ca961981&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo NCI1"&gt;dccde43bdb250010343f58b3ca961981&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a62e207bdb250010343f58b3ca96190c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-12 19:47:23&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-535149785</payload_hash>
+<remote_update_set display_value="Demo NCI1 - 1.0.1">4123b43fdb250010343f58b3ca96199c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2019-12-12 19:53:17</sys_created_on>
+<sys_id>0123b43fdb250010343f58b3ca96199d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16efba6d0cb0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2019-12-12 19:53:17</sys_updated_on>
+<table/>
+<target_name>DemoNCITest2</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>72c1387b4c2500109e0c6f5218e16137</update_guid>
+<update_guid_history>72c1387b4c2500109e0c6f5218e16137:-535149785,4d8ee47bdb250010fac63571e6f83a39:629364083,b77ee47ba32500108dedfc88e0f08735:1160465700</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_2be1b03fdb250010343f58b3ca9619fc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Run Server Side Validation Script</description><display_name>Run Server Side Script</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-12 19:48:43</sys_created_on><sys_id>2be1b03fdb250010343f58b3ca9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Run Server Side Script</sys_name><sys_package display_value="Demo NCI1" source="x_308211_demo_nci1">dccde43bdb250010343f58b3ca961981</sys_package><sys_policy/><sys_scope display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</sys_scope><sys_update_name>sys_atf_step_2be1b03fdb250010343f58b3ca9619fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-12 19:48:43</sys_updated_on><table/><test display_value="Demo NCI Test1">5fd1703fdb250010343f58b3ca9619f6</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=2be1b03fdb250010343f58b3ca9619fc"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2be1b03fdb250010343f58b3ca9619fc</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-12 19:48:43</sys_created_on><sys_id>0612703fdb250010343f58b3ca961958</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-12 19:48:43</sys_updated_on><value>3.1</value><variable display_value="">42f2564b73031300440211d8faf6a777</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2be1b03fdb250010343f58b3ca9619fc</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-12 19:48:43</sys_created_on><sys_id>0e12703fdb250010343f58b3ca961958</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-12 19:48:43</sys_updated_on><value>// You can use this step to execute a variety of server-side javascript tests including&#13;
+// jasmine tests and custom assertions&#13;
+//&#13;
+//&#13;
+// Pass or fail a step: Override the step outcome to pass or fail. This is ignored &#13;
+//                      by jasmine tests&#13;
+//&#13;
+//  - Return true from the main function body to pass the step&#13;
+//  - Return false from the main function body to fail the step&#13;
+//&#13;
+//&#13;
+// outputs:       Pre-defined Step config Output variables to set on this step during &#13;
+//                execution that are available to later steps&#13;
+//&#13;
+// steps(SYS_ID): A function to retrieve Output variable data from a step that executed&#13;
+//                earlier in the test. The desired step's sys_id is required&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      // Test step 1 - add data&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      // this sample step's Step config has Output variables named table and record_id&#13;
+//      outputs.table = 'sc_task';&#13;
+//      outputs.record_id = gr.insert();&#13;
+//&#13;
+//      // Test step 2 - access added data and validate&#13;
+//      // check that the record exists (or that business logic changed it)&#13;
+//      var gr = new GlideRecord("sc_task");&#13;
+//      gr.get(steps(PREVIOUS_STEP_SYS_ID).record_id);&#13;
+//      assertEqual({name: "task gr exists", shouldbe: true, value: gr.isValidRecord()});&#13;
+//&#13;
+//&#13;
+// stepResult.setOutputMessage: Log a message to step results after step executes.&#13;
+//                              Can only be called once or will overwrite previous &#13;
+//                              message&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      gr.setValue('short_description', 'verify task can be inserted');&#13;
+//      var grSysId = gr.insert();&#13;
+//      var justCreatedGR = new GlideRecord('sc_task');&#13;
+//      if (justCreatedGR.get(grSysId)) {&#13;
+//            stepResult.setOutputMessage("Successfully inserted task record");&#13;
+//            return true; // pass the step&#13;
+//      } else { &#13;
+//            stepResult.setOutputMessage("Failed to insert task record");&#13;
+//            return false; // fail the step&#13;
+//      }&#13;
+//&#13;
+//&#13;
+// Note: describe is only supported in Global scope.&#13;
+// Use 'describe' to create a suite of test scripts and 'it' to define test expectations&#13;
+//&#13;
+//  Example jasmine test:&#13;
+//&#13;
+//      describe('my suite of script tests', function() {&#13;
+//            it('should meet expectations', function() {&#13;
+//                  expect(true).not.toBe(false);&#13;
+//            });&#13;
+//      });&#13;
+//      // make sure to uncomment jasmine.getEnv().execute(); outside the function body&#13;
+//&#13;
+//&#13;
+// assertEqual: A function used to compare that assertion.shouldbe == assertion.value;&#13;
+//              in case of failure it throws an Error and logs that the assertion by&#13;
+//              name has failed&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var testAssertion = {&#13;
+//            name: "my test assertion",&#13;
+//            shouldbe: "expected value"&#13;
+//            value: "actual value",&#13;
+//      };&#13;
+//      assertEqual(testAssertion); // throws Error, logs message to test step output&#13;
+//&#13;
+/**&#13;
+ * Description&#13;
+ * &#13;
+ * @method anonymous-3236&#13;
+ * @author System Administrator [admin]&#13;
+ * @requires x_308211_demo_nci1.module:sys_script_include.DemoNCI1Test&#13;
+ * @memberof x_308211_demo_nci1.module:sys_atf_step&#13;
+ * @returns {undefined}&#13;
+ */&#13;
+(function(outputs, steps, stepResult, assertEqual) {&#13;
+    // add test script here&#13;
+	return new x_308211_demo_nci1.DemoNCI1Test().executeTest();&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+// uncomment the next line to execute this script as a jasmine test&#13;
+//jasmine.getEnv().execute();&#13;
+</value><variable display_value="">989d9e235324220002c6435723dc3484</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1530096580</payload_hash>
+<remote_update_set display_value="Demo NCI1 - 1.0.1">4123b43fdb250010343f58b3ca96199c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2019-12-12 19:53:17</sys_created_on>
+<sys_id>0523b43fdb250010343f58b3ca96199c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16efba806240000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2019-12-12 19:53:17</sys_updated_on>
+<table/>
+<target_name>Run Server Side Script</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>c212703f8825001072a21d901f896a5a</update_guid>
+<update_guid_history>c212703f8825001072a21d901f896a5a:-1530096580</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_5fd1703fdb250010343f58b3ca9619f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>Demo NCI Test1</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-12 19:47:51</sys_created_on><sys_id>5fd1703fdb250010343f58b3ca9619f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo NCI Test1</sys_name><sys_package display_value="Demo NCI1" source="x_308211_demo_nci1">dccde43bdb250010343f58b3ca961981</sys_package><sys_policy/><sys_scope display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</sys_scope><sys_update_name>sys_atf_test_5fd1703fdb250010343f58b3ca9619f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-12 19:47:51</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=5fd1703fdb250010343f58b3ca9619f6"/></record_update>]]></payload>
+<payload_hash>-252948015</payload_hash>
+<remote_update_set display_value="Demo NCI1 - 1.0.1">4123b43fdb250010343f58b3ca96199c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2019-12-12 19:53:17</sys_created_on>
+<sys_id>4d23b43fdb250010343f58b3ca96199c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16efba73aea0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2019-12-12 19:53:17</sys_updated_on>
+<table/>
+<target_name>Demo NCI Test1</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>95e1703f712500108bcc6cb939228b4e</update_guid>
+<update_guid_history>95e1703f712500108bcc6cb939228b4e:-252948015</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_3312743fdb250010343f58b3ca9619dd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>Demo NCI Test2</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-12 19:48:59</sys_created_on><sys_id>3312743fdb250010343f58b3ca9619dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo NCI Test2</sys_name><sys_package display_value="Demo NCI1" source="x_308211_demo_nci1">dccde43bdb250010343f58b3ca961981</sys_package><sys_policy/><sys_scope display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</sys_scope><sys_update_name>sys_atf_test_3312743fdb250010343f58b3ca9619dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-12 19:48:59</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=3312743fdb250010343f58b3ca9619dd"/></record_update>]]></payload>
+<payload_hash>430103379</payload_hash>
+<remote_update_set display_value="Demo NCI1 - 1.0.1">4123b43fdb250010343f58b3ca96199c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2019-12-12 19:53:17</sys_created_on>
+<sys_id>8923b43fdb250010343f58b3ca96199c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16efba8470a0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2019-12-12 19:53:17</sys_updated_on>
+<table/>
+<target_name>Demo NCI Test2</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>0622b43f7c250010e469e8a01c6bb616</update_guid>
+<update_guid_history>0622b43f7c250010e469e8a01c6bb616:430103379</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_8c32743fdb250010343f58b3ca961952</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Run Server Side Validation Script</description><display_name>Run Server Side Script</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-12 19:49:15</sys_created_on><sys_id>8c32743fdb250010343f58b3ca961952</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Run Server Side Script</sys_name><sys_package display_value="Demo NCI1" source="x_308211_demo_nci1">dccde43bdb250010343f58b3ca961981</sys_package><sys_policy/><sys_scope display_value="Demo NCI1">dccde43bdb250010343f58b3ca961981</sys_scope><sys_update_name>sys_atf_step_8c32743fdb250010343f58b3ca961952</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-12 19:49:15</sys_updated_on><table/><test display_value="Demo NCI Test2">3312743fdb250010343f58b3ca9619dd</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=8c32743fdb250010343f58b3ca961952"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8c32743fdb250010343f58b3ca961952</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-12 19:49:15</sys_created_on><sys_id>7132743fdb250010343f58b3ca9619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-12 19:49:15</sys_updated_on><value>// You can use this step to execute a variety of server-side javascript tests including&#13;
+// jasmine tests and custom assertions&#13;
+//&#13;
+//&#13;
+// Pass or fail a step: Override the step outcome to pass or fail. This is ignored &#13;
+//                      by jasmine tests&#13;
+//&#13;
+//  - Return true from the main function body to pass the step&#13;
+//  - Return false from the main function body to fail the step&#13;
+//&#13;
+//&#13;
+// outputs:       Pre-defined Step config Output variables to set on this step during &#13;
+//                execution that are available to later steps&#13;
+//&#13;
+// steps(SYS_ID): A function to retrieve Output variable data from a step that executed&#13;
+//                earlier in the test. The desired step's sys_id is required&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      // Test step 1 - add data&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      // this sample step's Step config has Output variables named table and record_id&#13;
+//      outputs.table = 'sc_task';&#13;
+//      outputs.record_id = gr.insert();&#13;
+//&#13;
+//      // Test step 2 - access added data and validate&#13;
+//      // check that the record exists (or that business logic changed it)&#13;
+//      var gr = new GlideRecord("sc_task");&#13;
+//      gr.get(steps(PREVIOUS_STEP_SYS_ID).record_id);&#13;
+//      assertEqual({name: "task gr exists", shouldbe: true, value: gr.isValidRecord()});&#13;
+//&#13;
+//&#13;
+// stepResult.setOutputMessage: Log a message to step results after step executes.&#13;
+//                              Can only be called once or will overwrite previous &#13;
+//                              message&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      gr.setValue('short_description', 'verify task can be inserted');&#13;
+//      var grSysId = gr.insert();&#13;
+//      var justCreatedGR = new GlideRecord('sc_task');&#13;
+//      if (justCreatedGR.get(grSysId)) {&#13;
+//            stepResult.setOutputMessage("Successfully inserted task record");&#13;
+//            return true; // pass the step&#13;
+//      } else { &#13;
+//            stepResult.setOutputMessage("Failed to insert task record");&#13;
+//            return false; // fail the step&#13;
+//      }&#13;
+//&#13;
+//&#13;
+// Note: describe is only supported in Global scope.&#13;
+// Use 'describe' to create a suite of test scripts and 'it' to define test expectations&#13;
+//&#13;
+//  Example jasmine test:&#13;
+//&#13;
+//      describe('my suite of script tests', function() {&#13;
+//            it('should meet expectations', function() {&#13;
+//                  expect(true).not.toBe(false);&#13;
+//            });&#13;
+//      });&#13;
+//      // make sure to uncomment jasmine.getEnv().execute(); outside the function body&#13;
+//&#13;
+//&#13;
+// assertEqual: A function used to compare that assertion.shouldbe == assertion.value;&#13;
+//              in case of failure it throws an Error and logs that the assertion by&#13;
+//              name has failed&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var testAssertion = {&#13;
+//            name: "my test assertion",&#13;
+//            shouldbe: "expected value"&#13;
+//            value: "actual value",&#13;
+//      };&#13;
+//      assertEqual(testAssertion); // throws Error, logs message to test step output&#13;
+//&#13;
+/**&#13;
+ * Description&#13;
+ * &#13;
+ * @method anonymous-3236&#13;
+ * @author System Administrator [admin]&#13;
+ * @requires x_308211_demo_nci1.module:sys_script_include.DemoNCI1Test&#13;
+ * @memberof x_308211_demo_nci1.module:sys_atf_step&#13;
+ * @returns {undefined}&#13;
+ */&#13;
+(function(outputs, steps, stepResult, assertEqual) {&#13;
+    // add test script here&#13;
+return new x_308211_demo_nci1.DemoNCI1Test().executeTest();&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+// uncomment the next line to execute this script as a jasmine test&#13;
+//jasmine.getEnv().execute();&#13;
+</value><variable display_value="">989d9e235324220002c6435723dc3484</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8c32743fdb250010343f58b3ca961952</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-12 19:49:15</sys_created_on><sys_id>bd32743fdb250010343f58b3ca9619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-12 19:49:15</sys_updated_on><value>3.1</value><variable display_value="">42f2564b73031300440211d8faf6a777</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-759136835</payload_hash>
+<remote_update_set display_value="Demo NCI1 - 1.0.1">4123b43fdb250010343f58b3ca96199c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2019-12-12 19:53:17</sys_created_on>
+<sys_id>c523b43fdb250010343f58b3ca96199c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16efba8832a0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2019-12-12 19:53:17</sys_updated_on>
+<table/>
+<target_name>Run Server Side Script</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>f932f43fdc2500107e9a496dd45a440d</update_guid>
+<update_guid_history>f932f43fdc2500107e9a496dd45a440d:-759136835</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
