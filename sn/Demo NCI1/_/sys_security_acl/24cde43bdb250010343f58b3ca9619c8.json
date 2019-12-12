@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "admin_overrides": true,
+  "advanced": false,
+  "condition": null,
+  "description": "Default access control on x_308211_demo_nci1_table",
+  "name": "x_308211_demo_nci1_table",
+  "operation": "read",
+  "script": null,
+  "sys_class_name": "sys_security_acl",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-12-12 19:29:46",
+  "sys_id": "24cde43bdb250010343f58b3ca9619c8",
+  "sys_mod_count": 0,
+  "sys_name": "x_308211_demo_nci1_table",
+  "sys_package": "dccde43bdb250010343f58b3ca961981",
+  "sys_policy": null,
+  "sys_scope": "dccde43bdb250010343f58b3ca961981",
+  "sys_update_name": "sys_security_acl_24cde43bdb250010343f58b3ca9619c8",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-12-12 19:29:46",
+  "type": "record"
+}

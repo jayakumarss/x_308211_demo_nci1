@@ -1,0 +1,31 @@
+{
+  "active": true,
+  "applies_extended": false,
+  "condition": null,
+  "description": null,
+  "field": null,
+  "global": true,
+  "isolate_script": true,
+  "messages": null,
+  "name": "DemoNCITest2",
+  "order": null,
+  "script": {
+    "____see": "sn\\Demo NCI1\\Client Script\\{--none--}\\active_true\\DemoNCITest2.js"
+  },
+  "sys_class_name": "sys_script_client",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-12-12 19:32:59",
+  "sys_id": "a62e207bdb250010343f58b3ca96190c",
+  "sys_mod_count": 1,
+  "sys_name": "DemoNCITest2",
+  "sys_package": "dccde43bdb250010343f58b3ca961981",
+  "sys_policy": null,
+  "sys_scope": "dccde43bdb250010343f58b3ca961981",
+  "sys_update_name": "sys_script_client_a62e207bdb250010343f58b3ca96190c",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-12-12 19:33:05",
+  "table": null,
+  "type": null,
+  "ui_type": 0,
+  "view": null
+}
